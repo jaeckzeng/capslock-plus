@@ -36,6 +36,10 @@ lang_settingsFileContent=
 
 loadScript=scriptDemo.js
 
+;是否开机自启动，1为是，0为否（默认）。
+autostart=1
+allowClipboard=1
+
 [QSearch]
 
 [QRun]
@@ -49,6 +53,8 @@ loadScript=scriptDemo.js
 [TTranslate]
 
 [Keys]
+caps_q=keyfunc_listary()
+press_caps=keyFunc_esc
 
 )
 global lang_settingsDemoFileContent_1:=""
