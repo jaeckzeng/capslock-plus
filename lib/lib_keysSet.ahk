@@ -99,9 +99,9 @@ keySchemeInit_capslox(){
     if(!keyset.caps_0)
         keyset.caps_0:="keyFunc_winbind_activate(10)"
     if(!keyset.caps_minus)
-        keyset.caps_minus:="keyFunc_qbar_upperFolderPath"
+        keyset.caps_minus:="keyFunc_pageUp"
     if(!keyset.caps_equal)
-        keyset.caps_equal:="keyFunc_qbar_lowerFolderPath"
+        keyset.caps_equal:="keyFunc_pageDown"
     if(!keyset.caps_backspace)
         keyset.caps_backspace:="keyFunc_deleteLine"
     if(!keyset.caps_tab)
