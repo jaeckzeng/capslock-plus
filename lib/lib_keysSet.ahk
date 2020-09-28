@@ -56,7 +56,7 @@ keySchemeInit_capslox(){
     if(!keyset.caps_p)
         keyset.caps_p:="keyFunc_home"
     if(!keyset.caps_q)
-        keyset.caps_q:="keyFunc_qbar"
+        keyset.caps_q:="keyFunc_InsertString"
     if(!keyset.caps_r)
         keyset.caps_r:="keyFunc_delete"
     if(!keyset.caps_s)
@@ -336,7 +336,7 @@ keySchemeInit_capslockPlus(){
     if(!keyset.caps_p)
         keyset.caps_p:="keyFunc_home"
     if(!keyset.caps_q)
-        keyset.caps_q:="keyFunc_qbar"
+        keyset.caps_q:="keyFunc_InsertString"
     if(!keyset.caps_r)
         keyset.caps_r:="keyFunc_delete"
     if(!keyset.caps_s)

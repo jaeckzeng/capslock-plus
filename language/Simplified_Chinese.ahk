@@ -53,7 +53,6 @@ allowClipboard=1
 [TTranslate]
 
 [Keys]
-caps_q=keyfunc_listary()
 press_caps=keyFunc_esc
 
 )
