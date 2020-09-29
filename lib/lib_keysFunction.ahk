@@ -854,3 +854,8 @@ keyFunc_unshiftWinMinimizeStack(){
 keyFunc_winTransparent(){
     winTransparent()
 }
+
+keyFunc_InsertString(){
+    SendInput, +{insert}
+    return
+}
