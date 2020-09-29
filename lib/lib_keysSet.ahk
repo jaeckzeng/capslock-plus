@@ -287,9 +287,9 @@ keySchemeInit_capslox(){
     ;--------------------other--------------------
         
     if(!keyset.caps_lalt_wheelUp)
-        keyset.caps_lalt_wheelUp:="keyFunc_mouseSpeedIncrease"
+        keyset.caps_lalt_wheelUp:="keyFunc_volumeUp"
     if(!keyset.caps_lalt_wheelDown)
-        keyset.caps_lalt_wheelDown:="keyFunc_mouseSpeedDecrease"
+        keyset.caps_lalt_wheelDown:="keyFunc_volumeDown"
 
     return
 }
